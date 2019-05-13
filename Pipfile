@@ -1,0 +1,23 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+scipy = "*"
+numpy = "*"
+pandas = "*"
+scikit-learn = "*"
+fitparse = "*"
+six = "*"
+Cython = "*"
+
+[dev-packages]
+pytest = "*"
+nose = "*"
+pytest-cov = "*"
+tox = "*"
+joblib = "*"
+
+[requires]
+python_version = "3.7"
